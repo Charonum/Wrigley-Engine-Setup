@@ -25,4 +25,3 @@ for file in os.listdir(rf"C:\Users\{getpass.getuser()}\Charonum\Wrigley Engine\W
     shutil.move(rf"C:\Users\{getpass.getuser()}\Charonum\Wrigley Engine\WE_Startup-main\{file}", rf"C:\Users\{getpass.getuser()}\Charonum\Wrigley Engine")
 
 os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\Wrigley Engine\WE_Startup-main.zip")
-os.remove(rf"C:\Users\{getpass.getuser()}\Charonum\Wrigley Engine\WE_Startup-main")
